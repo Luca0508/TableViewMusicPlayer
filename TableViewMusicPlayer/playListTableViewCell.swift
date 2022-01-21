@@ -26,18 +26,8 @@ class playListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+   
     
-    @IBAction func pressHeartButton(_ sender: UIButton) {
-        
-        if heartButton.tintColor == .lightGray{
-            heartButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
-            heartButton.tintColor = .green
-        } else if heartButton.tintColor == .green{
-            heartButton.setImage(UIImage(systemName: "heart"), for: .normal)
-            heartButton.tintColor = .lightGray
-        }
-        
-    }
-    
+
     
 }

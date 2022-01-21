@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A537FFCF2794857A009EB611 /* playListWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537FFCE2794857A009EB611 /* playListWebViewController.swift */; };
 		A556102A279271CA008FFEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5561029279271CA008FFEDD /* AppDelegate.swift */; };
 		A556102C279271CA008FFEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556102B279271CA008FFEDD /* SceneDelegate.swift */; };
 		A556102E279271CA008FFEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556102D279271CA008FFEDD /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A537FFCE2794857A009EB611 /* playListWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playListWebViewController.swift; sourceTree = "<group>"; };
 		A5561026279271CA008FFEDD /* TableViewMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5561029279271CA008FFEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A556102B279271CA008FFEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A556102B279271CA008FFEDD /* SceneDelegate.swift */,
 				A556102D279271CA008FFEDD /* ViewController.swift */,
 				A556102F279271CA008FFEDD /* Main.storyboard */,
+				A537FFCE2794857A009EB611 /* playListWebViewController.swift */,
 				A556103F279275F4008FFEDD /* playListTableViewController.swift */,
 				A5965D8A2792A4D700AE92EB /* playListTableViewCell.swift */,
 				A5561032279271CD008FFEDD /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A537FFCF2794857A009EB611 /* playListWebViewController.swift in Sources */,
 				A556103E2792721E008FFEDD /* songInfo.swift in Sources */,
 				A556102E279271CA008FFEDD /* ViewController.swift in Sources */,
 				A556102A279271CA008FFEDD /* AppDelegate.swift in Sources */,
