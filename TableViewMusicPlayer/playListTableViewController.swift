@@ -64,6 +64,7 @@ class playListTableViewController: UITableViewController {
         cell.singerLabel.text = song.singerName
         cell.songTitleLabel.text = song.songTitle
         cell.songImageView.image = UIImage(named: song.imageName)
+        
         if song.like == true {
             cell.heartButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
             cell.heartButton.tintColor = .green
@@ -71,8 +72,6 @@ class playListTableViewController: UITableViewController {
             cell.heartButton.setImage(UIImage(systemName: "heart"), for: .normal)
             cell.heartButton.tintColor = .lightGray
         }
-        
-        
         
         return cell
     }
@@ -101,8 +100,6 @@ class playListTableViewController: UITableViewController {
             }
             
         }
-        
-        
         
     }
     
